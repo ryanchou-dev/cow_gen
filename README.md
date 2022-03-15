@@ -2,27 +2,34 @@
 
 ### details
 ---
-this project uses a deep convolutional generative adversarial network to generate cow pictures.
+this project uses a deep convolutional generative adversarial network to generate cow patterns.
 
-unfortunately, i can't find a large dataset of cow faces + the quality isn't that great, so the results won't look that good.
+unfortunately, i can't find a large dataset of cow faces $+$ the quality isn't that great, so ive decided to just generating unique cow patterns. if anyone has a dataset of cow images $\geq 500$ images, i would appreciate it a lot, if you'd let me use it <3.
 
-i essentially repurposed the code from tensorflow's tutorial: https://www.tensorflow.org/tutorials/generative/dcgan
+note that:
 
-the code'll look really similar to this code ^^
+* ive just downloaded a lot of images of google. so i have no info about the source of these images. i have <b>no rights</b> over the images in the dataset.
+* dataset is really unorganized/small, since i scraped it myself
+* the code was repurposed from keras's code examples. (code will look pretty similar)
 
-if anyone has a better dataset + any ideas on how to make this better, please let me know by opening an issue/pr!
+### generation
+---
 
-note that you'd probably want to scale up the image res, i didn't because i wanted to make sure the model worked quickly if people wanted to try it out.
+here are some generated cow patterns if you came here for that:
 
+![pattern1](examples/cow_pictures/pattern1.png) ![pattern2](examples/cow_pictures/pattern2.png) ![pattern3](examples/cow_pictures/pattern3.png) ![pattern4](examples/cow_pictures/pattern4.png) ![pattern5](examples/cow_pictures/pattern5.png) ![pattern7](examples/cow_pictures/pattern7.png) ![pattern8](examples/cow_pictures/pattern8.png) ![pattern9](examples/cow_pictures/pattern9.png) ![pattern10](examples/cow_pictures/pattern10.png) ![pattern11](examples/cow_pictures/pattern11.png)
 
 ### use
 ---
-you uh, probably won't get the results you're expecting. the images are black and white, and the pictures are really bad quality due to low res and small dataset. you'll probably just see blobs of black & white...
+
+note that epochs take a long time to generate, so you probably don't want to run it for that long.
+
+for me, it took ~$195$ minutes to run $100$ epochs.
 
 but, if you still want to see it ~~to spite me~~, clone this github repo, and run the jupyter notebook, with however many epochs you want!
 
-here's an example output with scaled up res:
 
-![](demo.gif)
+
+
 
 thanks for reading ≧(´▽｀)≦
