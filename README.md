@@ -6,7 +6,7 @@ currently a work in progress! will release a much better one really soon
 ---
 this project uses a deep convolutional generative adversarial network to generate cow patterns.
 
-unfortunately, i can't find a large dataset of cow faces $+$ the quality isn't that great, so ive decided to just generating unique cow patterns. if anyone has a dataset of cow images $\geq 500$ images, i would appreciate it a lot, if you'd let me use it <3.
+unfortunately, i can't find a large dataset of cow faces and the quality isn't that great, so ive decided to just generating unique cow patterns. if anyone has a dataset of cow images <img src="https://render.githubusercontent.com/render/math?math=\geq 500"> images, i would appreciate it a lot, if you'd let me use it <3.
 
 note that:
 
@@ -26,12 +26,13 @@ here are some generated cow patterns if you came here for that:
 
 note that epochs take a long time to generate, so you probably don't want to run it for that long.
 
-for me, it took ~$195$ minutes to run $100$ epochs.
+for me, it took ~<img src="https://render.githubusercontent.com/render/math?math=195"> minutes to run <img src="https://render.githubusercontent.com/render/math?math=100"> epochs.
 
 but, if you still want to see it ~~to spite me~~, clone this github repo, and run the jupyter notebook, with however many epochs you want!
 
+### comments
+---
 
-
-
+ive really enjoyed learning about dcgans this week and happy that i actually made something?
 
 thanks for reading ≧(´▽｀)≦
