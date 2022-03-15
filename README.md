@@ -1,5 +1,7 @@
 ## cow-gen!
 
+currently a work in progress! will release a much better one really soon
+
 ### details
 ---
 this project uses a deep convolutional generative adversarial network to generate cow patterns.
